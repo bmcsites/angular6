@@ -6,10 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-item.component.css']
 })
 export class MenuItemComponent implements OnInit {
+  isDisabled = false;
+  name = '';
+  title = '';
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit() {
+  }
+
+  disableButton()  {
+    this.isDisabled = true;
+  }
+
+  onUpdateInput(e) {
+    console.log(e.target.value);
+    this.title = e.target.value;
   }
 
 }

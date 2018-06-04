@@ -1,0 +1,23 @@
+
+<label>Title</label>
+<input type="text" class="form-control" placeholder="enter your title" (input)="onUpdateInput($event)">
+<label>Name</label>
+<input type="text" class="form-control" placeholder="enter your name" [(ngModel)]="name">
+<br/>
+<button class="btn btn-primary"
+        [disabled] = "isDisabled"
+        (click) = "disableButton()"
+>
+  click me
+</button>
+<br/>
+<div *ngIf="title !== ''">
+  <label>Title: </label>
+  <span> {{title}}</span>
+</div>
+<br/>
+<div *ngIf="name !== ''">
+  <label>Name: </label>
+  <span> {{name}}</span>
+</div>
+<hr>
