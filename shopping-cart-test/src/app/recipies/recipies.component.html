@@ -1,6 +1,8 @@
 <div class="col-md-7">
-  <app-recipe-list></app-recipe-list>
+  <app-recipe-list
+    (currentItem) = "getCurrentItem($event)"
+  ></app-recipe-list>
 </div>
-<div class="col-md-5">
-  <app-recipe-details></app-recipe-details>
+<div class="col-md-5" *ngIf="currentItem !== undefined">
+  <app-recipe-details [currentItem] = "currentItem"></app-recipe-details>
 </div>

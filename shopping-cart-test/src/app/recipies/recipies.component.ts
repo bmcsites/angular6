@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Recipe} from './recipe.model';
 
 @Component({
   selector: 'app-recipies',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipiesComponent implements OnInit {
 
+  currentItem: Recipe;
+  @Input('myrecipe') recipe: Recipe;
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  getCurrentItem(item: Recipe) {
+    this.currentItem = item;
+    console.log('the item as been clicked : ', this.currentItem);
+  }
 }
