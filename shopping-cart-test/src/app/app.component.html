@@ -8,5 +8,31 @@
   </div>
 </div>
 <hr>
+<!-- _____________ directive examples  _______________ -->
+<h1>Directives</h1>
 <p appBasicHighlight> style me with the created directive appBasicHighlight</p>
+
 <p appAdvancedHighlight> style me with the created directive appAdvancedHighlight</p>
+
+<p appDynamicAdvancedHighlight
+  defaultBgColor="blue"
+  [dynamicBgColor]="colorVar"
+  [defaultColor]="'white'"
+>
+  <!-- _____________ directive binding options _______________ -->
+  <!-- defaultBgColor="blue" -> bind the color without interpolation-->
+  <!-- [dynamicBgColor]="colorVar"" -> bind the color with interpolation and a variable -->
+  <!-- dynamicBgColor="{{colorVar}}" -> bind the color without interpolation and but render the variable to string -->
+  <!-- [defaultColor]="'white'" -> bind the color with interpolation and a color -->
+  style me with the created directive appDynamicAdvancedHighlight
+</p>
+
+<!-- _____________ NgSwitch examples  _______________ -->
+<div [ngSwitch] = "val">
+  <h1>ngSwitch selector</h1>
+  <p *ngSwitchCase="5">random result for val is 5</p>
+  <p *ngSwitchCase="10">random result for val is 10</p>
+  <p *ngSwitchCase="100" >random result for val is 100</p>
+  <p *ngSwitchDefault>val is default</p>
+</div>
+
