@@ -1,10 +1,12 @@
 import { Component, OnInit , EventEmitter, Output } from '@angular/core';
 import {Recipe} from '../recipe.model';
+import {LogService} from '../../services/log-service/log-service.service';
 
 @Component({
   selector: 'app-recipe-list',
   templateUrl: './recipe-list.component.html',
-  styleUrls: ['./recipe-list.component.css']
+  styleUrls: ['./recipe-list.component.css'],
+  providers: [LogService]
 })
 export class RecipeListComponent implements OnInit {
 
@@ -15,13 +17,14 @@ export class RecipeListComponent implements OnInit {
     new Recipe('pizza','yummy hot pizza','https://osrfgtie1.office.osrenterprises.com/resources?rid=00bf198f62f30185f352989b76c48ed93ad1b89cb0f33be08252be447f7ddb1f&url=http%3A%2F%2Ficons.iconarchive.com%2Ficons%2Fsonya%2Fswarm%2F256%2FPizza-icon.png&cid=Y2Zpci5iaXRhbkBPU1JET00uTE9DQUw1__FGL__0023277584c12ae0d2d6e624972e3060a91f78df00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&eid=9')
   ];
 
-  constructor() { }
+  constructor(private recipeLog: LogService) { }
 
   ngOnInit() {
   }
 
   getCurrentItem (recipe) {
-    console.log('clicked', recipe);
+    // calling the service to log
+    this.recipeLog.logStatusChange(recipe);
     this.currentItem.emit(recipe);
   }
 }
