@@ -6,8 +6,8 @@ import {Recipe} from '../../recipies/recipe.model';
 })
 export class LogService {
 
-  logStatusChange(recipe: Recipe) {
-    console.log('a recipe is been added ', recipe);
+  logStatusChange(recipe: Recipe, info: string) {
+    console.log(info, recipe);
   }
-
+  // the service used in recipe-list-component
 }

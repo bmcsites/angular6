@@ -13,6 +13,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { BasicHighlightDirective } from './directives/basic-directive/basic-highlight.directive';
 import { AdvancedHighlightDirective } from './directives/advenced-highlights/advanced-highlight.directive';
 import { DynamicAdvancedHighlightDirective } from './directives/dynamic-advenced-highlight/dynamic-advanced-highlight.directive';
+import { RecipesListEditComponent } from './recipies/recipe-list/recipes-list-edit/recipes-list-edit.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DynamicAdvancedHighlightDirective } from './directives/dynamic-advenced
     ShoppingEditComponent,
     BasicHighlightDirective,
     AdvancedHighlightDirective,
-    DynamicAdvancedHighlightDirective
+    DynamicAdvancedHighlightDirective,
+    RecipesListEditComponent
   ],
   imports: [
     BrowserModule,
