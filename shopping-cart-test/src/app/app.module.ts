@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
+import {RouterModule, Routes} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
@@ -14,6 +15,29 @@ import { BasicHighlightDirective } from './directives/basic-directive/basic-high
 import { AdvancedHighlightDirective } from './directives/advenced-highlights/advanced-highlight.directive';
 import { DynamicAdvancedHighlightDirective } from './directives/dynamic-advenced-highlight/dynamic-advanced-highlight.directive';
 import { RecipesListEditComponent } from './recipies/recipe-list/recipes-list-edit/recipes-list-edit.component';
+
+
+
+const approute : Routes = [
+  {
+    path: '',
+    redirectTo: 'recipes',
+    pathMatch: 'full'
+  },
+  {
+    path: 'recipes',
+    component: RecipiesComponent
+  },
+  {
+    path: 'shopping-list',
+    component: ShoppingListComponent
+  },
+  {
+    path: 'shopping-list/:id',
+    component: ShoppingListComponent
+  }
+];
+
 
 @NgModule({
   declarations: [
@@ -32,7 +56,8 @@ import { RecipesListEditComponent } from './recipies/recipe-list/recipes-list-ed
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(approute)
   ],
   providers: [],
   bootstrap: [AppComponent]

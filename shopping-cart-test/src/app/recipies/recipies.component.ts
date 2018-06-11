@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Recipe} from './recipe.model';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-recipies',
@@ -11,7 +12,7 @@ export class RecipiesComponent implements OnInit {
   currentItem: Recipe;
   @Input('myrecipe') recipe: Recipe;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
@@ -19,5 +20,9 @@ export class RecipiesComponent implements OnInit {
   getCurrentItem(item: Recipe) {
     this.currentItem = item;
     console.log('the item as been clicked : ', this.currentItem);
+  }
+
+  goToShop() {
+    this.router.navigate(['/shopping-list']);
   }
 }

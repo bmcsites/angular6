@@ -23,11 +23,7 @@ export class RecipesListEditComponent implements OnInit {
   addRecipeWithService() {
     console.log('list edit component add recipe.');
     this.RecipesServ.addRecipe(this.recipeName,this.recipeDesc,this.recipeImg);
-    this.update.emit(true);
+    /*this.update.emit(true);*/
   }
 
-/*  addRecipeWithService() {
-    console.log('list edit component add recipe.');
-    this.update.emit(new Recipe(this.recipeName,this.recipeDesc,this.recipeImg));
-  }*/
 }

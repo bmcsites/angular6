@@ -28,9 +28,4 @@ export class RecipeListComponent implements OnInit {
     this.recipeLog.logStatusChange(recipe,'a recipe as been selected.');
     this.currentItem.emit(recipe);
   }
-
-  updateListRecipes(e) {
-    console.log('updateListRecipes: ', e);
-    /*this.recipes.push(e);*/
-  }
 }

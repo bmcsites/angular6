@@ -8,8 +8,6 @@
     [currentItem] = "currentItem"
     *ngIf="currentItem; else recipeNotSelected"
   ></app-recipe-details>
-  <ng-template #recipeNotSelected>
-    <p>please select a recipe</p>
-  </ng-template>
+  <button class="btn btn-primary" (click)="goToShop()">Go to Shopping Cart</button>
 
 </div>
