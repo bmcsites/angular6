@@ -1,7 +1,7 @@
 .disable {
   cursor: not-allowed;
   pointer-events: none;
-  color: ##5d5d5d;
+  color: #5d5d5d;
   background-color: #c1c1c1;
   border: none;
 

@@ -16,17 +16,22 @@ import { AdvancedHighlightDirective } from './directives/advenced-highlights/adv
 import { DynamicAdvancedHighlightDirective } from './directives/dynamic-advenced-highlight/dynamic-advanced-highlight.directive';
 import { RecipesListEditComponent } from './recipies/recipe-list/recipes-list-edit/recipes-list-edit.component';
 import { HomeComponent } from './home/home.component';
+import { UserLoginComponent } from './user-login/user-login.component';
 
 
 
 const approute : Routes = [
-/*  {
-    path: '',
-    redirectTo: 'HomeComponent',
-    pathMatch: 'full'
-  },*/
   {
     path: '',
+    redirectTo: 'login',
+    pathMatch: 'full'
+  },
+  {
+    path: 'login',
+    component: UserLoginComponent
+  },
+  {
+    path: 'home',
     component: HomeComponent
   },
   {
@@ -58,7 +63,8 @@ const approute : Routes = [
     AdvancedHighlightDirective,
     DynamicAdvancedHighlightDirective,
     RecipesListEditComponent,
-    HomeComponent
+    HomeComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,

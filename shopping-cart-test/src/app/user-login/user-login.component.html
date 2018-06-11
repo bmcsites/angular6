@@ -1,0 +1,37 @@
+<h1>welcome please login</h1>
+<!--connect the form to ngForm-->
+<form (ngSubmit)="onSubmit(loginForm)" #loginForm="ngForm">
+  <div id="user-data">
+    <div class="form-group">
+      <label for="username">User Name</label>
+      <input
+          name="user"
+          id="username"
+          type="text"
+          class="form-control"
+          minlength="4"
+          #user
+          ngModel
+          required
+      >
+      <span class="help-block" *ngIf="!user.valid &&  user.touched"></span>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+          name="pass"
+          id="password"
+          type="password"
+          class="form-control"
+          minlength="8"
+          #pass
+          ngModel
+          required>
+      <span class="help-block" *ngIf="!pass.valid &&  pass.touched"></span>
+    </div>
+    <div class="form-group">
+      <!--disable the button if the form object that auto created by angular is valid-->
+      <button  [disabled]="!loginForm.valid" class="btn btn-info" type="submit">enter</button>
+    </div>
+  </div>
+</form>
