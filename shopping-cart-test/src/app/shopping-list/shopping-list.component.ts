@@ -23,6 +23,14 @@ export class ShoppingListComponent implements OnInit {
     if(this.route.snapshot.params['id'] !== undefined) {
       this.id = this.route.snapshot.params['id'];
     }
+
+    // watcher on the route params
+    this.route.params.subscribe(
+      (params) => {
+        this.id = params['id'];
+      }
+    )
+
   }
   // function that starts when shopping-edit-components send an ingredient
   addIngrident(e) {

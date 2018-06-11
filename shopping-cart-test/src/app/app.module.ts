@@ -15,14 +15,19 @@ import { BasicHighlightDirective } from './directives/basic-directive/basic-high
 import { AdvancedHighlightDirective } from './directives/advenced-highlights/advanced-highlight.directive';
 import { DynamicAdvancedHighlightDirective } from './directives/dynamic-advenced-highlight/dynamic-advanced-highlight.directive';
 import { RecipesListEditComponent } from './recipies/recipe-list/recipes-list-edit/recipes-list-edit.component';
+import { HomeComponent } from './home/home.component';
 
 
 
 const approute : Routes = [
+/*  {
+    path: '',
+    redirectTo: 'HomeComponent',
+    pathMatch: 'full'
+  },*/
   {
     path: '',
-    redirectTo: 'recipes',
-    pathMatch: 'full'
+    component: HomeComponent
   },
   {
     path: 'recipes',
@@ -52,7 +57,8 @@ const approute : Routes = [
     BasicHighlightDirective,
     AdvancedHighlightDirective,
     DynamicAdvancedHighlightDirective,
-    RecipesListEditComponent
+    RecipesListEditComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
