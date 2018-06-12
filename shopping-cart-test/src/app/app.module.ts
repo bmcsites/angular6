@@ -17,6 +17,7 @@ import { DynamicAdvancedHighlightDirective } from './directives/dynamic-advenced
 import { RecipesListEditComponent } from './recipies/recipe-list/recipes-list-edit/recipes-list-edit.component';
 import { HomeComponent } from './home/home.component';
 import { UserLoginComponent } from './user-login/user-login.component';
+import { RecipeListPipePipe } from './recipies/recipe-list-pipe.pipe';
 
 
 
@@ -64,7 +65,8 @@ const approute : Routes = [
     DynamicAdvancedHighlightDirective,
     RecipesListEditComponent,
     HomeComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    RecipeListPipePipe
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 <a class="list-group-item clearfix">
   <div class="pull-left">
-    <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+    <!--using the pipe that i made-->
+    <h4 class="list-group-item-heading">{{recipe.name | recipeListPipe:'recipe'}}</h4>
     <p class="list-group-item-text">{{recipe.description}}</p>
   </div>
   <div class="pull-right">

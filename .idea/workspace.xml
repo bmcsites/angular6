@@ -4,7 +4,7 @@
     <list default="true" id="92ce3f2e-eb3a-419e-b6f5-ec166d94b004" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping-cart-test/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart-test/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart-test/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart-test/src/app/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-login.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user-login.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/user-login/user-login.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -52,11 +52,59 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-list.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipies.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipies.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-list-pipe.pipe.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list-pipe.pipe.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipies.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipies.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-item.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -88,7 +136,6 @@
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe.model.ts" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.ts" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-details/recipe-details.component.ts" />
-        <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-details/recipe-details.component.html" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/shopping-list/shopping-edit/shopping-edit.component.html" />
@@ -104,7 +151,6 @@
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipes-list-edit/recipes-list-edit.component.html" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/services/recipes-service/recipes.service.ts" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-list.component.ts" />
-        <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-list.component.html" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipes-list-edit/recipes-list-edit.component.ts" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/app-header/app-header.component.html" />
@@ -120,6 +166,9 @@
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/user-login/user-login.component.ts" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/user-login/user-login.component.css" />
         <option value="$PROJECT_DIR$/shopping-cart-test/src/app/user-login/user-login.component.html" />
+        <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-list.component.html" />
+        <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list-pipe.pipe.ts" />
+        <option value="$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html" />
       </list>
     </option>
   </component>
@@ -186,7 +235,26 @@
               <item name="shopping-cart-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="user-login" type="462c0819:PsiDirectoryNode" />
+              <item name="recipies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular 6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular 6" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-cart-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="recipies" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular 6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular 6" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-cart-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="recipies" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe-list" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe-item" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,12 +310,12 @@
       <workItem from="1528019216920" duration="1684000" />
       <workItem from="1528021157284" duration="10909000" />
       <workItem from="1528099014729" duration="52616000" />
-      <workItem from="1528638284229" duration="22138000" />
+      <workItem from="1528638284229" duration="25842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87347000" />
+    <option name="totallyTimeSpent" value="91051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -280,7 +348,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts" />
     <entry file="file://$PROJECT_DIR$/src/app/app.component.html" />
     <entry file="file://$PROJECT_DIR$/src/app/menu-item/menu-item.component.ts" />
@@ -380,13 +447,6 @@
     <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipes-list-edit/recipes-list-edit.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="79" lean-forward="true" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipes-list-edit/recipes-list-edit.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -401,13 +461,6 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -508,16 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipies.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/shopping-list/shopping-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -532,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipies.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -563,16 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/user-login/user-login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -594,6 +620,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipies.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipies.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list-pipe.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-cart-test/src/app/recipies/recipe-list/recipe-item/recipe-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
